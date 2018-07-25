@@ -1,0 +1,16 @@
+{
+	"name": "node-test-one",
+	"version": "0.0.0",
+	"description": "A simple Node.js app using express 4",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"mysql": "^2.5.4",
+		"express": "^4.13.3"
+	},
+	"engines": {
+		"node": "4.7.0"
+	}
+}

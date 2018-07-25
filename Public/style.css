@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+* {
+  box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 12px;
+  float: left;
+  width: 150%;
+  border-color: black;
+  background-color: white;
+  font-family: 'Karla', sans-serif;
+}
+
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #ffffff;
+  color: black;
+  font-size: 17px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+} 
+
+.fa fa-caret-right{
+  color: #ffffff;
+  size: 10px;
+}
+
+/*form.example button: hover {
+  background: #0b7dda;
+  border-radius: 12px;
+}*/
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+#listings{
+    border-color: black;
+    background-color: white;
+    padding: 14px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 250px;
+
+} 
+
+#companies{
+  border-color: black;
+    background-color: white;
+    padding: 14px 28px; 
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+#searchinput{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 140px;
+
+}  
+
+#searchbtn{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+         
+}
+
+#searchinput2{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 140px;
+  } 
+
+  #searchbtn2{
+    border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+  }
+
+a {
+    color: black;
+}
+
+#column4{
+  background: #ffffff;
+  color: black;
+} 
+
+#submit{
+  size: 30px;
+  height: 20px;
+  padding-top: 10px;
+  width: 20px;
+  font-size: 40px;
+}
+
+#submit_button{
+  border: none;
+  position: absolute;
+  margin-top: 340px;
+}  
+
+#submit2{
+   size: 30px;
+  height: 20px;
+  padding-top: 10px;
+  width: 20px;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 230px; 
+
+}
+
+#submit_button2{
+  border: none;
+}
+
+#homebutton{
+  border-color: #ffffff;
+    background-color: #ffffff;
+    /*padding: 14px 28px;*/*/
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px; 
+    color:#000; 
+     margin-left: 25px;
+} 
+
+
+
+
+.button{
+  border-color: #ffffff;
+    background-color: #ffffff;
+} 
+
+button:link{
+  color:#000;
+}
+
+#landing_title{
+  font-style: bold;
+  font-size: 80px;
+  font-family: 'Karla', sans-serif;
+  padding-top: 250px;
+  margin-left: 200px;
+
+}
+
+
+#landing_title_2{
+  font-style: normal;
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  word-spacing: 41px;
+  margin-left: 200px;
+  position: absolute;
+ 
+}
+
+#landing_title_2ndpage{
+  font-style: bold;
+  font-size: 35px;
+  font-family: 'Karla', sans-serif;
+  
+}
+
+
+#landing_title_2_2ndpage{
+  font-style: normal;
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  word-spacing: 23px;
+ 
+  
+}
+
+
+
+
+
+#results{
+  font-style: normal;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+#line1 { 
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    color: black;
+    margin-top: 80px;
+} 
+
+p{
+   font-family: 'Karla', sans-serif;
+   font-size: 18px;
+   padding: 25px;
+} 
+
+#card1{
+  padding: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+
+#company_name{
+  font-style: normal;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  padding: 25px;
+} 
+
+#logo_url{
+  height: 30%;
+  width: 30%;
+  padding: 20px;
+} 
+
+#position_card{
+  padding: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 12px;
+} 
+
+#position{
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  padding: 20px;
+} 
+
+#applylink{
+  font-style: normal;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  padding: 25px;
+} 
+
+#dropdownMenuButton{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+   padding: 20px;
+   width: 100%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 115px; 
+    float: right;
+    margin-bottom: 30px;
+   
+
+} 
+
+#line3{
+  max-width: 100%;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+ 
+
+#input_co{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+   padding: 20px;
+   width: 300px;
+   height: 100px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#input_pos{
+  position: relative;
+  padding: 25px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: black;
+  font-family: 'Karla', sans-serif;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 300px;
+  height: 100px;
+} 
+
+
+
+#input_description{
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  position: relative;
+  padding: 50px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  border-color: black;
+  margin-top: 20px;
+  font-family: 'Karla', sans-serif;
+  margin-left: 25px;
+} 
+
+#right_side{
+  display: inline;
+  float: right;
+  margin-top: 380px;
+} 
+
+#left_side{
+  display: inline;
+  float: left;
+} 
+
+
+
+#input_website{
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  border-color: black;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-width: 1px;
+  width: 300px;
+  height: 100px;
+  
+} 
+
+
+
+#input1{
+  position: relative;
+  padding: 25px;
+  border-radius: 12px;
+  border-color: black;
+  font-family: 'Karla', sans-serif;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 20px;
+} 
+
+#input4{
+  position: relative;
+  padding: 25px;
+  border-radius: 12px;
+  border-color: black;
+  font-family: 'Karla', sans-serif;
+  margin-left: 25px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+
+#sumbit_4{
+    border-color: white;
+    background-color: inherit;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    color: black; 
+} 
+
+#cosearchbtn{
+ 
+    background-color: inherit;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    color: black;
+    float: right;
+    border-radius: 12px;
+    border-color: black;
+    position: fixed;
+    margin-top: 145px;
+    margin-left: 20px;
+}
+#posearchbtn{
+background-color: inherit;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    color: black;
+    float: right;
+    border-radius: 12px;
+    border-color: black;
+    position: fixed;
+    margin-top: 145px;
+    margin-left: 20px;
+}
+
+#companycard{
+  padding: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 12px;
+}
+
+#link_name{
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  padding: 20px;
+} 
+
+#company_name{
+  font-style: normal;
+  font-size: 35px;
+  font-family: 'Karla', sans-serif;
+  padding: 20px;
+} 
+
+#position_source{
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  padding: 20px;
+} 
+
+#new_position{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+   padding: 20px;
+   width: 100%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 150px; 
+    float: right;
+    }
+
+    #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; 
+    border-radius: 12px;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px;
+    font-family: "Karla", sans-serif;
+    border-color: black;
+} 
+
+#submitform{
+ 
+  border-radius: 12px;
+  border-color: black;
+  font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px;
+     height: 80px;
+    width: 150px;
+
+} 
+
+#submitform:hover{
+  background-color: blue;
+}
+
+
+#myBtn:hover {
+    background-color: blue; /* Add a dark-grey background on hover */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    display: none;
+}
+
+
+ul li:hover{
+  display: block;
+  color: black;
+}
+#dropdown1:hover dd{
+  display: block;
+  color: black;
+}
+
+
+
+#companydropdown{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+   padding: 25px;
+   width: 300px;
+   height: 100px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#positiondropdown{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+   padding: 20px;
+   width: 300px;
+   height: 100px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#NTID_D_i{
+  border-radius: 12px;
+  border-color: black;
+    background-color: white;
+    color: black;
+   padding: 20px;
+   width: 300px;
+   height: 100px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#sumbit_4:hover {
+  border-color: blue;
+}
+#submitform:hover {
+  border-color: blue;
+}
